@@ -1,0 +1,43 @@
+html, body{height:100%;}
+
+body{font-family: 'Kaushan Script', cursive;
+    
+    background-color:#612482;
+   /*background-image:url("img/Paparazzi.jpg");*/
+    background-repeat:no-repeat;
+    background-size:100% 100%;}
+
+header{position:fixed;
+    font-style: italic;
+    text-align:center;
+    color:white;
+    width:100%;}
+    
+nav{display:flex;
+    justify-content:space-between;
+    background-color:#a034db;
+    color:white;
+    /*position: fixed; - not working, defies flex*/}
+    
+#top1{position:relative;
+        top:120px;
+        height:20px;
+        font-size:20px;}
+        
+article{/*position:absolute; top:180px;*/
+        display:flex; justify-content:space-between;
+        height:40%;
+        flex-wrap:wrap;
+        /*middle of screen a selection options to other pages*/}
+        
+section{
+    /*background-color:#FF04A8;
+    height:25%;*/
+    }
+
+    
+aside{font-family: 'Fresca', sans-serif;
+    color:white;}
+    
+footer{margin:10pt;
+    text-align:center;}

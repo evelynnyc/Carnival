@@ -1,0 +1,102 @@
+html,body {height:100%;}
+body{font-family: 'Kaushan Script', cursive;   
+    background-color:#612482;
+    /*background-image:url("img/Paparazzi.jpg");*/
+    background-size:100% 100%;
+	margin: 100px 70px 10px 70px;}
+
+header{
+    background-image:url("img/costume.jpg");
+    position:fixed; top: 0px;
+    background-color:#612482;
+    font-style: italic;
+    text-align:center;
+    color:white;
+    width:35%; height:100%;
+    z-index:50;}
+
+nav{display:flex;
+    justify-content:space-between;
+    background-color:#a034db;
+    color:white;
+    font-size:18px;
+    /*position: fixed; - not working, defies flex*/}
+
+.page{margin-top: 130px;}
+
+#top1{padding-top:120px;
+    font-family:kaushan script;
+    font-size:20px;}
+        
+article{/*position:absolute; top:145px;*/
+        margin:40% auto;
+        flex-wrap:wrap;
+        /* display:flex; justify-content:space-between;middle of screen a selection options to other pages*/}
+
+#cost{float:left;}
+
+h2{font-family:kaushan script;
+    /*clear:both;*/} 
+
+section{
+        /*margin:0px auto; padding-top:120px;*/
+        flex-wrap:wrap;
+        font-family:fresca;
+        /*background-color:#FF04A8;
+        height:25%;*/}
+
+p{/*padding-top:0px;
+    display:inline;*/
+    font-family:fresca;
+    font-size:20px;} 
+    
+span{font-family:kaushan script;}
+
+.textleft{margin:5px 15px;}
+.textright{margin:5px 20px;}
+/*.picright{float:right;}*/
+/*.picleft{display:flex;
+        justify-content:space-between;}*/
+
+
+#oth{display:flex;
+     flex:1;
+    }
+#op{display:flex;
+    flex:1;}
+
+#genpic{float:right;
+        background-image:url("../img/Paparazzi.jpg");
+        background-size:100% 100%;
+        height:190px; width:300px;
+        }
+
+#locpic{background-image:url("../img/flags.png");
+        background-size:100% 100%;
+        min-height:260px; min-width:320px;}
+   
+#jouvertpic{background-image:url("img/jouvert.jpg");
+       background-size:100% 100%;
+       height:190px; width:350px;}
+  
+#maspic{background-image:url("img/prettymas.jpg");
+        background-size:100% 100%;
+        height:200px; width:200px;}
+        
+#otherpic{background-image:url("img/wide_sunset.jpg");
+        background-size: 100% 100%;
+        height:190px; width:400px;}
+
+aside{font-family: 'Fresca', sans-serif;
+      color:white;}
+    
+.landscapepics{display:flex;
+    justify-content:space-between;
+    background-image:url("img/DR-jabjab.jpg");
+ }
+    
+.portraitpics{height:375px; width:250px;}
+    
+footer{margin:10pt;
+    text-align:center;
+    background-color:#a034db;}
